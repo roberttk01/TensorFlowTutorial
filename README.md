@@ -1,6 +1,6 @@
 # TensorFlowTutorial
 
-### About
+## About
 
 These are companion scripts, modules, and packages from going through sentdex's Machine Learning (ML)
 playlist on Youtube. Applicable links may be found in the **Acknowledgement** section below.
@@ -14,6 +14,12 @@ the code here will not be identical to that found on [pythonprogramming.net](htt
 dealing with the tensorflow library alone, but after further examination it appeared prudent to cover the entirety of the
 ML playlist.
 
+### Sections
+These sections correspond to the parts of TensorFlowTutorial and not directly to the parts on [pythonprogramming.net](https:\\www.pythonprogramming.net),
+although it should be similar. This will also be updated as I go along the series to include the finished sections of TensorFlowTutorial. 
+1) Linear Regression: Parts 2-12
+2) K Nearest Neighbor (KNN): Parts 14-18
+3) Support Vector Machine (SVM): Parts 20-28 
 
 ## Author
 
