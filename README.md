@@ -1,13 +1,14 @@
 # TensorFlowTutorial
 
 ### About
-These are companion scripts, modules, and packages from going through sentdex's Machine Learning
+
+These are companion scripts, modules, and packages from going through sentdex's Machine Learning (ML)
 playlist on Youtube. Applicable links may be found in the **Acknowledgement** section below.
 
-#### Note Concerning requirements.txt: 
-There are a slew of requirements that *pip freeze* wrote to requirements.txt. However,
-the only two packages that need to be installed are NumPy and TensorFlow. The rest of their dependencies will be installed
-with the these two packages.
+**NOTE:** This project is titled TensorFlowTutorial because its original intention was to simply cover sentdex's tutorials
+dealing with the tensorflow library alone, but after further examination it appeared prudent to cover the entirety of the
+ML playlist.
+
 
 ## Author
 
