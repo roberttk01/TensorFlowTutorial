@@ -1,4 +1,4 @@
-# TensorFlorTutorial
+# TensorFlowTutorial
 
 ### About
 These are companion scripts, modules, and packages from going through sentdex's Machine Learning
