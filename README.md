@@ -18,7 +18,7 @@ ML playlist.
 ##### Note converning requirements:
 In the original Sentdex tutorial series, he uses the TensorFlow-gpu package. Due to the hardware that is being run locally
 while going through this tutorial, I found it worked better for myself if I used the TensorFlow compiled for the CPU and my GPU
-was still using Cuda 2.0, not the 3.0 needed for TensorFlow, so there will be slight dicrepencies throughout the TensorFlow section of this
+was still using Cuda 2.0, not the 3.0 needed for TensorFlow, so there will be slight discrepancies throughout the TensorFlow section of this
 series.
 
 ### Sections
