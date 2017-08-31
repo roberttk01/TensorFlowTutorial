@@ -6,7 +6,7 @@ These are companion scripts, modules, and packages from going through sentdex's 
 playlist on Youtube. Applicable links may be found in the **Acknowledgement** section below.
 
 For organizational purposes, all of the *extra* files used during this series (i.e. - ```.pickle```, ```.data```, 
-```.names``` files) have been placed in ```/TensorFlowTutorial/etc/``` and the code adjusted as such. In these cases,
+```.names```, and ```.xls``` files) have been placed in ```/TensorFlowTutorial/etc/``` and the code adjusted as such. In these cases,
 the code here will not be identical to that found on [pythonprogramming.net](https:\\www.pythonprogramming.net).
 
 
@@ -17,9 +17,16 @@ ML playlist.
 ### Sections
 These sections correspond to the parts of TensorFlowTutorial and not directly to the parts on [pythonprogramming.net](https:\\www.pythonprogramming.net),
 although it should be similar. This will also be updated as I go along the series to include the finished sections of TensorFlowTutorial. 
-1) Linear Regression: Parts 2-12
-2) K Nearest Neighbor (KNN): Parts 14-18
-3) Support Vector Machine (SVM): Parts 20-28 
+
+##### Parts
+1. Linear Regression: 2-12
+2. K Nearest Neighbor (KNN): 14-18
+3. Support Vector Machine (SVM): 20-28 
+4. Clustering: 34 - 42
+    1. K Means: 34 - 38
+    2. Mean Shift: 39 - 42
+5. Neural Networks: 44 - ...
+
 
 ## Author
 

@@ -55,7 +55,7 @@ clf.fit(X)
 labels = clf.labels_
 cluster_centers = clf.cluster_centers_
 
-original_df['cluster_group']=np.nan
+original_df['cluster_group'] = np.nan
 
 for i in range(len(X)):
     original_df['cluster_group'].iloc[i] = labels[i]
@@ -73,10 +73,10 @@ for i in range(n_clusters_):
     survival_rates[i] = survival_rate
 
 print(survival_rates)
-print(original_df[ (original_df['cluster_group']==1) ])
-print(original_df[ (original_df['cluster_group']==0) ].describe())
-print(original_df[ (original_df['cluster_group']==2) ].describe())
+print(original_df[(original_df['cluster_group'] == 1)])
+print(original_df[(original_df['cluster_group'] == 0)].describe())
+print(original_df[(original_df['cluster_group'] == 2)].describe())
 
-cluster_0 = (original_df[ (original_df['cluster_group']==0) ])
-cluster_0_fc = (cluster_0[ (cluster_0['pclass']==1) ])
+cluster_0 = (original_df[(original_df['cluster_group'] == 0)])
+cluster_0_fc = (cluster_0[(cluster_0['pclass'] == 1)])
 print(cluster_0_fc.describe())
