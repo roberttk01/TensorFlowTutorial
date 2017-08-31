@@ -7,12 +7,19 @@ playlist on Youtube. Applicable links may be found in the **Acknowledgement** se
 
 For organizational purposes, all of the *extra* files used during this series (i.e. - ```.pickle```, ```.data```, 
 ```.names```, and ```.xls``` files) have been placed in ```/TensorFlowTutorial/etc/``` and the code adjusted as such. In these cases,
-the code here will not be identical to that found on [pythonprogramming.net](https:\\www.pythonprogramming.net).
-
+the code here will not be identical to that found on [pythonprogramming.net](https:\\www.pythonprogramming.net). The only
+exception to this being the *NLTK* downloads used towards the beginning of the TensorFlow section as they are larger than
+I wish to upload to Github.
 
 **NOTE:** This project is titled TensorFlowTutorial because its original intention was to simply cover sentdex's tutorials
 dealing with the tensorflow library alone, but after further examination it appeared prudent to cover the entirety of the
 ML playlist.
+
+##### Note converning requirements:
+In the original Sentdex tutorial series, he uses the TensorFlow-gpu package. Due to the hardware that is being run locally
+while going through this tutorial, I found it worked better for myself if I used the TensorFlow compiled for the CPU and my GPU
+was still using Cuda 2.0, not the 3.0 needed for TensorFlow, so there will be slight dicrepencies throughout the TensorFlow section of this
+series.
 
 ### Sections
 These sections correspond to the parts of TensorFlowTutorial and not directly to the parts on [pythonprogramming.net](https:\\www.pythonprogramming.net),
