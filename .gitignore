@@ -102,5 +102,5 @@ ENV/
 # mypy
 .mypy_cache/
 
-# NTLK Dataset
-TensorFlowTutorial/etc/nltk_data/
+# Stanford Dataset
+TensorFlowTutorial/etc/training.1600000.processed.noemoticon.csv
