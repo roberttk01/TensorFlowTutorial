@@ -105,3 +105,6 @@ ENV/
 # Stanford Dataset
 TensorFlowTutorial/etc/training.1600000.processed.noemoticon.csv
 TensorFlowTutorial/etc/testdata.manual.2009.06.14.csv
+
+# Staging Directory
+TensorFlowTutorial/git_staging/
